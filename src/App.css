@@ -1,0 +1,78 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.search-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+#search-input {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+#search-button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+#search-button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.background {
+  background-image: url('https://media.istockphoto.com/id/1394594963/pt/foto/calendar-with-pen-on-the-blue-empty-copy-space-for-text-concept-for-busy-timeline-organize.jpg?s=612x612&w=0&k=20&c=Pf-j6woka8PyyHsUu1oKOOhFSwNq0P2p5qe5SfXs8Dg=');
+  background-size: cover; /* para cobrir todo o espaço disponível */
+  background-position: center; /* para centralizar a imagem */
+}
+
+.custom-border {
+  border: 2px solid #007bff; /* Azul-esverdeado */
+}
